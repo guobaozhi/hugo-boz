@@ -15,32 +15,11 @@
     <lastBuildDate>Mon, 03 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Features / Mods</title>
-      <link>http://localhost:1313/posts/papermod/papermod-features/images/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/papermod/papermod-features/images/</guid>
-      <description>Learn About All Features in PaperMod</description>
-    </item>
-    <item>
-      <title>Hugo &#43; PaperMod &#43; Github Pages 搭建一个完善的个人博客(以 Windows11 为例)</title>
-      <link>http://localhost:1313/posts/papermod/papermod-installation/</link>
+      <title>Hugo &#43; PaperMod &#43; Netlify 搭建一个完善的个人博客</title>
+      <link>http://localhost:1313/posts/papermod-installation/</link>
       <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/papermod/papermod-installation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>http://localhost:1313/posts/papermod/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/papermod/markdown-syntax/</guid>
-      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
-    </item>
-    <item>
-      <title>Code Syntax Guide</title>
-      <link>http://localhost:1313/posts/papermod/code_syntax/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/papermod/code_syntax/</guid>
-      <description>Sample article showcasing basic code syntax and formatting for HTML elements.</description>
+      <guid>http://localhost:1313/posts/papermod-installation/</guid>
+      <description>&lt;p&gt;这是第一篇博客。&lt;/p&gt;</description>
     </item>
     <item>
       <title>关于</title>
