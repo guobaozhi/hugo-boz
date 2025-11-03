@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on Boz&#39;s Blog</title>
-    <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on Boz&#39;s Blog</description>
+    <title>写作 on Boz&#39;s Blog</title>
+    <link>http://localhost:1313/tags/%E5%86%99%E4%BD%9C/</link>
+    <description>Recent content in 写作 on Boz&#39;s Blog</description>
     <image>
       <title>Boz&#39;s Blog</title>
       <url>http://localhost:1313/images/papermod-cover.png</url>
@@ -13,13 +13,13 @@
     <language>zh</language>
     <copyright>[©2024 Boz&amp;rsquo;s Blog]</copyright>
     <lastBuildDate>Mon, 03 Nov 2025 16:00:44 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%86%99%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>通用技术</title>
-      <link>http://localhost:1313/categories/%E9%80%9A%E7%94%A8%E6%8A%80%E6%9C%AF/</link>
+      <title>科技文档写作实务笔记</title>
+      <link>http://localhost:1313/posts/%E8%BF%99%E6%98%AF%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Mon, 03 Nov 2025 16:00:44 +0800</pubDate>
-      <guid>http://localhost:1313/categories/%E9%80%9A%E7%94%A8%E6%8A%80%E6%9C%AF/</guid>
-      <description></description>
+      <guid>http://localhost:1313/posts/%E8%BF%99%E6%98%AF%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <description>&lt;p&gt;什么是技术写作。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
