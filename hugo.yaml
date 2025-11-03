@@ -109,8 +109,8 @@ params:
     title: Boz's Blog
     imageUrl: "img/logo.png" # 头像图片路径
     imageTitle:
-    imageWidth: 200
-    imageHeight: 200
+    imageWidth: 150
+    imageHeight: 150
     # 主页快捷菜单
     buttons:
       - name: 👨🏻‍💻写作
