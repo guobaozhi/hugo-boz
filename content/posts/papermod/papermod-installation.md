@@ -1,15 +1,6 @@
 ---
-title: "Install / Update PaperMod"
-summary: Read aboout Install and Update instructions and sampled configuration templates
-date: 2021-01-20
-series: ["PaperMod"]
-weight: 1
-aliases: ["/papermod-installation"]
-tags: ["PaperMod", "Docs"]
-author: ["Aditya Telange"]
-cover:
-  image: images/papermod-cover.png
-  hiddenInList: true
-social:
-  fediverse_creator: "@adityatelange@mastodon.social"
+title: 'Hugo + PaperMod + Github Pages 搭建一个完善的个人博客(以 Windows11 为例)'
+date: 2025-11-03
+categories: ["通用技术"]
+tags: ["博客搭建", "blog"]
 ---
