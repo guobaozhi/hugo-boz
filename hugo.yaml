@@ -35,6 +35,8 @@ languages:
       category: categories
       tag: tags
     # https://gohugo.io/content-management/menus/#define-in-site-configuration
+
+    # 主页顶部的导航菜单
     menus:
       main:
         - name: 首页
@@ -84,7 +86,7 @@ params:
 
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-  author: Boz
+  author: Boz # author: ["Me", "You"] # multiple authors
   defaultTheme: dark # 默认是暗色背景
   ShowShareButtons: false # 关闭分享的按钮
   ShowReadingTime: true # 展示预估的阅读时长
@@ -94,23 +96,27 @@ params:
   ShowCodeCopyButtons: true # 是否展示复制代码的按钮
   ShowRssButtonInSectionTermList: true # RSS 相关
   ShowAllPagesInArchive: true # 在归档页面展示所有的页面
+  ShowLastMod: true #显示文章更新时间
   ShowPageNums: true # 展示页面的页数
   ShowToc: true # 展示文章详情页的目录
   comments: true # 评论
   # images: ["https://i.postimg.cc/7hwBy7VS/calcr.png"] # 缺省的图片，比如，博客的封面
   DateFormat: "2006-01-02" # 这个时间是作者自己写的，只能这样写
   profileMode:
-    enabled: false
-    title: PaperMod
-    imageUrl: "#"
-    imageTitle: my image
-    # imageWidth: 120
-    # imageHeight: 120
+    enabled: true
+    title: Boz's Blog
+    imageUrl: "img/logo.png" # 头像图片路径
+    imageTitle:
+    imageWidth: 120
+    imageHeight: 120
+    # 主页快捷菜单
     buttons:
-      - name: Archives
-        url: archives
-      - name: Tags
-        url: tags
+      - name: 👨🏻‍💻写作
+        url: posts/tech
+      - name: 📕阅读
+        url: posts/read
+      - name: 🏖生活
+        url: posts/life
 
  # 首页的文章上方的一些信息
   homeInfoParams:

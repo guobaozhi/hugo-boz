@@ -11,10 +11,17 @@
     <atom:link href="http://localhost:1313/tags/%E5%86%99%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>科技文档写作实务笔记</title>
-      <link>http://localhost:1313/posts/%E8%BF%99%E6%98%AF%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <link>http://localhost:1313/posts/tech/%E8%BF%99%E6%98%AF%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Mon, 03 Nov 2025 16:00:44 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E8%BF%99%E6%98%AF%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
-      <description>&lt;p&gt;什么是技术写作。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/tech/%E8%BF%99%E6%98%AF%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <description>&lt;h1 id=&#34;概述篇&#34;&gt;概述篇&lt;/h1&gt;
+&lt;h2 id=&#34;什么是技术文档&#34;&gt;什么是技术文档&lt;/h2&gt;
+&lt;h3 id=&#34;技术文档的定义&#34;&gt;技术文档的定义&lt;/h3&gt;
+&lt;h3 id=&#34;技术文档的范畴&#34;&gt;技术文档的范畴&lt;/h3&gt;
+&lt;h3 id=&#34;技术文档的特征&#34;&gt;技术文档的特征&lt;/h3&gt;
+&lt;h3 id=&#34;技术文档的多种形式&#34;&gt;技术文档的多种形式&lt;/h3&gt;
+&lt;h2 id=&#34;技术文档写作的国际国内现状&#34;&gt;技术文档写作的国际国内现状&lt;/h2&gt;
+&lt;h2 id=&#34;技术文档写作的意义&#34;&gt;技术文档写作的意义&lt;/h2&gt;</description>
     </item>
   </channel>
 </rss>
