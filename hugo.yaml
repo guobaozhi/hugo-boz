@@ -1,6 +1,6 @@
 # If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-baseURL: "https://ubozo.tech" # 主站的 URL
+baseURL: "https://gridframe.cn" # 主站的 URL
 title: Boz's Blog # 站点标题
 copyright: "[©2024 Boz's Blog]" # 网站的版权声明，通常显示在页脚"
 theme: [hugo-PaperMod] # 使用的主题名称
