@@ -23,7 +23,7 @@ minify:
 
 pagination:
   disableAliases: false
-  pagerSize: 5
+  pagerSize: 8
 
 # 配置导航栏
 
@@ -116,11 +116,14 @@ params:
       - name: Tags
         url: tags
 
+ # 首页的文章上方的一些信息
   homeInfoParams:
+  # 首页的 profile 内容
     Title: "Boz's Blog"
+    # 首页的 profile 内容
     Content: >
       👋 Welcome to My Blog!
-
+# 社交帐号的按钮
   socialIcons:
     - name: github
       title: View Source on Github
