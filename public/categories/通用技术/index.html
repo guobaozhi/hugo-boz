@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh" dir="auto" data-theme="auto">
+<html lang="zh" dir="auto" data-theme="dark">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,7 @@
 <title>通用技术 | Boz&#39;s Blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
-<meta name="author" content="Theme PaperMod">
+<meta name="author" content="Boz">
 <link rel="canonical" href="http://localhost:1313/categories/%E9%80%9A%E7%94%A8%E6%8A%80%E6%9C%AF/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.dc4875f8b97952f63a8081805baaccd5afb7ea5d6f0a0bcb32f86d6ee439055a.css" integrity="sha256-3Eh1&#43;Ll5UvY6gIGAW6rM1a&#43;36l1vCgvLMvhtbuQ5BVo=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.png">
@@ -28,46 +28,9 @@
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .toc {
-                background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
-            }
-        }
-
-    </style>
 </noscript>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
+    if (localStorage.getItem("pref-theme") === "light") {
         document.querySelector("html").dataset.theme = 'light';
     }
 
@@ -114,9 +77,7 @@ code.has-jax {
   <meta property="og:description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
   <meta property="og:locale" content="zh">
   <meta property="og:type" content="website">
-      <meta property="og:image" content="http://localhost:1313/images/papermod-cover.png">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://localhost:1313/images/papermod-cover.png">
+<meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="通用技术">
 <meta name="twitter:description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
 
@@ -184,7 +145,7 @@ code.has-jax {
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/">主页</a>&nbsp;»&nbsp;<a href="http://localhost:1313/categories/">Categories</a></div>
+<header class="page-header">
   <h1>
     通用技术
     <a href="/categories/%E9%80%9A%E7%94%A8%E6%8A%80%E6%9C%AF/index.xml" title="RSS" aria-label="RSS">
@@ -207,7 +168,7 @@ code.has-jax {
     <p>什么是技术写作。
 </p>
   </div>
-  <footer class="entry-footer"><span title='2025-11-03 16:00:44 +0800 CST'>2025年11月3日</span>&nbsp;·&nbsp;<span>1 分钟</span>&nbsp;·&nbsp;<span>Theme PaperMod</span></footer>
+  <footer class="entry-footer"><span title='2025-11-03 16:00:44 +0800 CST'>2025-11-03</span>&nbsp;·&nbsp;<span>1 分钟</span>&nbsp;·&nbsp;<span>Boz</span></footer>
   <a class="entry-link" aria-label="post link to 科技文档写作实务笔记" href="http://localhost:1313/posts/%E8%BF%99%E6%98%AF%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/"></a>
 </article>
 
@@ -221,7 +182,7 @@ code.has-jax {
 $$ a^2 &#43; b^2 = c^2 $$
 $$ \boldsymbol{x}_{i&#43;1}&#43;\boldsymbol{x}_{i&#43;2}=\boldsymbol{x}_{i&#43;3} $$ 1.post-content pre, 2code { 3 font-family: &#34;JetBrains Mono&#34;, monospace; 4 font-size: 1rem; 5 line-height: 1.2; 6} </p>
   </div>
-  <footer class="entry-footer"><span title='2025-11-03 00:00:00 +0000 UTC'>2025年11月3日</span>&nbsp;·&nbsp;<span>1 分钟</span>&nbsp;·&nbsp;<span>Theme PaperMod</span></footer>
+  <footer class="entry-footer"><span title='2025-11-03 00:00:00 +0000 UTC'>2025-11-03</span>&nbsp;·&nbsp;<span>1 分钟</span>&nbsp;·&nbsp;<span>Boz</span></footer>
   <a class="entry-link" aria-label="post link to Hugo &#43; PaperMod &#43; Netlify 搭建一个完善的个人博客" href="http://localhost:1313/posts/papermod-installation/"></a>
 </article>
     </main>
