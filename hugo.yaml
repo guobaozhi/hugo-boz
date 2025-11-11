@@ -39,22 +39,22 @@ languages:
     # 主页顶部的导航菜单
     menus:
       main:
-        - name: 首页
+        - name: 🏡首页
           pageRef: /
           weight: 4 # 控制在页面上展示的前后顺序
-        - name: 归档
+        - name: 🗄归档
           pageRef: archives/
           weight: 5
-        - name: 分类
+        - name: 🗂分类
           pageRef: categories/
           weight: 10
-        - name: 标签
+        - name: 🔖标签
           pageRef: tags/
           weight: 10
-        - name: 搜索
+        - name: 🔍搜索
           pageRef: search/
           weight: 20
-        - name: 关于
+        - name: 🧑‍💻关于
           pageRef: about/
           weight: 21
 
@@ -107,6 +107,7 @@ params:
   profileMode:
     enabled: true
     title: Boz's Blog
+    subtitle: Simplicity is the ultimate sophistication. -- Leonardo da Vinci
     imageUrl: "img/logo.png" # 头像图片路径
     imageTitle:
     imageWidth: 150
@@ -114,11 +115,11 @@ params:
     # 主页快捷菜单
     buttons:
       - name: 👨🏻‍💻写作
-        url: posts/tech
+        url: posts/writing
       - name: 📕阅读
         url: posts/read
-      - name: 🏖生活
-        url: posts/life
+      - name: 🌐科技
+        url: posts/tech
 
  # 首页的文章上方的一些信息
   homeInfoParams:
