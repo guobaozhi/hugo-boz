@@ -107,7 +107,7 @@ params:
   profileMode:
     enabled: true
     title: Boz's Blog
-    subtitle: Simplicity is the ultimate sophistication. -- Leonardo da Vinci
+    subtitle: 你内心拥有什么，就会看到什么样的世界. # 头像下的副标题 The outer world you see is a reflection of your inner self.
     imageUrl: "img/logo.png" # 头像图片路径
     imageTitle:
     imageWidth: 150
