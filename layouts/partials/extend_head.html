@@ -6,3 +6,9 @@
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
 {{ partial "mathjax.html" . }}
 {{- /* Head custom content area end */ -}}
+
+<!-- busuanzi -->
+{{- if .Site.Params.busuanzi.enable -}}
+  <script async src="//busuanzi.icodeq.com/busuanzi.pure.mini.js "></script>
+  <meta name="referrer" content="no-referrer-when-downgrade">
+{{- end -}}

@@ -126,7 +126,7 @@ languages:
     params:
       profileMode:
         enabled: true
-        title: Boz's Blog
+        # title: Boz's Blog
         subtitle: 你内心拥有什么，就会看到什么样的世界. # 头像下的副标题 The outer world you see is a reflection of your inner self.
         imageUrl: "img/logo.png" # 头像图片路径
         imageTitle:
@@ -166,6 +166,12 @@ outputs:
     - JSON # necessary for search, 这里的配置修改好之后，一定要重新生成一下
 
 
+frontmatter:
+    lastmod:
+        - lastmod
+        - :fileModTime
+        - :default
+
 params:
   # 搜索
   fuseOpts:
@@ -181,15 +187,16 @@ params:
 
 # 配置到此处，搜索应该可以正常工作了
 
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  env: production # # 设置站点的环境. to enable google analytics, opengraph, twitter-cards and schema.
   description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
   author: Boz # author: ["Me", "You"] # multiple authors
   defaultTheme: dark # 默认是暗色背景
   ShowShareButtons: false # 关闭分享的按钮
   ShowReadingTime: true # 展示预估的阅读时长
+  hiddensummary: false # 不隐藏摘要
   displayFullLangName: true # 展示全名
   ShowPostNavLinks: true # 展示文章导航链接，就是下一页上一页的那个
-  ShowBreadCrumbs: false # 是否展示标题上方的面包屑
+  ShowBreadCrumbs: true # 是否展示标题上方的面包屑
   ShowCodeCopyButtons: true # 是否展示复制代码的按钮
   ShowRssButtonInSectionTermList: true # RSS 相关
   ShowAllPagesInArchive: true # 在归档页面展示所有的页面
@@ -199,6 +206,10 @@ params:
   comments: true # 评论
   # images: ["https://i.postimg.cc/7hwBy7VS/calcr.png"] # 缺省的图片，比如，博客的封面
   DateFormat: "2006-01-02" # 这个时间是作者自己写的，只能这样写
+  busuanzi:
+    enable: true # 启用布算子网站访问量统计
+
+
 
 
   editPost:
@@ -212,9 +223,9 @@ params:
   # icon: icon.png
   # iconHeight: 35
 
-  # analytics:
-  #     google:
-  #         SiteVerificationTag: "XYZabc"
+  analytics:
+      google:
+          SiteVerificationTag: "XYZabc"
 
   assets:
   # 设置网站的标签页的图标，即 favicon
@@ -224,7 +235,7 @@ params:
       apple_touch_icon: "favicon.png"
       safari_pinned_tab: "favicon.png"
 
-      disableHLJS: true
+      disableHLJS: false
   #     favicon: "<link / abs url>"
   #     favicon16x16: "<link / abs url>"
   #     favicon32x32: "<link / abs url>"

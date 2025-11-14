@@ -3,12 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/en/project/</loc>
+    <lastmod>2025-11-14T14:36:28+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/blog/</loc>
+    <lastmod>2025-11-14T14:35:41+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/resume/</loc>
+    <lastmod>2025-11-14T14:38:30+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/</loc>
+    <lastmod>2025-11-14T14:00:04+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -21,6 +25,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/en/about/</loc>
+    <lastmod>2025-11-14T15:08:48+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -33,6 +38,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/en/archives/</loc>
+    <lastmod>2025-11-14T15:07:08+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -57,6 +63,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/search/</loc>
+    <lastmod>2025-11-14T15:07:44+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
