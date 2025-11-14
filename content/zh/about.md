@@ -1,7 +1,7 @@
 ---
 title: "关于"
 layout: "about"
-url: "/about/"
+url: "zh/about/"
 summary: about
 ---
 

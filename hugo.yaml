@@ -28,8 +28,72 @@ pagination:
 # 配置导航栏
 
 languages:
+  en:
+    languageName: "English"
+    contentDir: "content/en"
+    weight: 2
+    taxonomies:
+      category: categories
+      tag: tags
+
+    menus:
+      main:
+        - name: 🏡Home
+          pageRef: /
+          weight: 4
+        - name: 🗄Archives
+          pageRef: archives/
+          weight: 5
+        - name: 🗂Categories
+          pageRef: categories/
+          weight: 10
+        - name: 🔖Tags
+          pageRef: tags/
+          weight: 10
+        - name: 🔍Search
+          pageRef: search/
+          weight: 20
+        - name: 🧑‍💻About
+          pageRef: about/
+          weight: 21
+
+# custom params for each language should be under [langcode].parms - hugo v0.120.0
+    params:
+      languageAltTitle: English
+      # 个人资料卡片,主页布局显示模式
+      profileMode:
+        enabled: true
+        title: Boz's Blog
+        subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+        imageUrl: 'img/logo.png' # 头像图片路径
+        # imageWidth: 150
+        # imageHeight: 150
+        buttons:
+          - name: Project
+            url: /en/project/
+          - name: Resume
+            url: /en/resume
+          - name: Blog
+            url: /en/blog/
+      socialIcons:
+        - name: github
+          url: 'https://github.com/guobaozhi'
+        # - name: linkedin
+        #   url: 'https://www.linkedin.com/in/yunyitang820/'
+        # - name: instagram
+        #   url: 'https://www.instagram.com/yunyi_cam/'
+        # - name: goodreads
+        #   url: 'https://www.goodreads.com/user/show/161105203-yunyi-tang'
+        - name: email
+          url: 'mailto:guobaozhi@gmail.com'
+      homeInfoParams:
+        Title: "Hi there \U0001F44B"
+        Content: Welcome to my blog!
+
+# 配置中文界面
   zh:
     languageName: "中文" # 展示的语言名
+    contentDir: "content/zh" # 内容目录
     weight: 1 # 权重
     taxonomies: # 分类系统
       category: categories
@@ -57,6 +121,40 @@ languages:
         - name: 🧑‍💻关于
           pageRef: about/
           weight: 21
+  # 个人资料卡片,主页布局显示模式
+  # 一些个性化设置
+    params:
+      profileMode:
+        enabled: true
+        title: Boz's Blog
+        subtitle: 你内心拥有什么，就会看到什么样的世界. # 头像下的副标题 The outer world you see is a reflection of your inner self.
+        imageUrl: "img/logo.png" # 头像图片路径
+        imageTitle:
+        imageWidth: 150
+        imageHeight: 150
+      # 主页快捷菜单
+        buttons:
+          - name: 👨🏻‍💻写作
+            url: posts/writing
+          - name: 📕阅读
+            url: posts/read
+          - name: 🌐科技
+            url: posts/tech
+
+    # 首页的文章上方的一些信息
+      homeInfoParams:
+      # 首页的 profile 内容
+        Title: "Boz's Blog"
+        # 首页的 profile 内容
+        Content: 欢迎来到我的博客！这里记录着我的学习与生活点滴。希望你能在这里找到有趣的内容，并与我一同成长！🚀
+    # 社交帐号的按钮
+      socialIcons:
+        - name: github
+          title: View Source on Github
+          url: "https://github.com/adityatelange/hugo-PaperMod"
+        - name: X
+          title: Share PaperMod on X/Twitter
+          url: "https://x.com/intent/tweet/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=https://github.com/adityatelange/hugo-PaperMod&hashtags=Hugo,PaperMod"
 
 # 配置搜索页面
 
@@ -67,7 +165,6 @@ outputs:
     - RSS # 这个其实无所谓
     - JSON # necessary for search, 这里的配置修改好之后，一定要重新生成一下
 
-# 一些个性化设置
 
 params:
   # 搜索
@@ -103,39 +200,6 @@ params:
   # images: ["https://i.postimg.cc/7hwBy7VS/calcr.png"] # 缺省的图片，比如，博客的封面
   DateFormat: "2006-01-02" # 这个时间是作者自己写的，只能这样写
 
-  # 个人资料卡片,主页布局显示模式
-  profileMode:
-    enabled: true
-    title: Boz's Blog
-    subtitle: 你内心拥有什么，就会看到什么样的世界. # 头像下的副标题 The outer world you see is a reflection of your inner self.
-    imageUrl: "img/logo.png" # 头像图片路径
-    imageTitle:
-    imageWidth: 150
-    imageHeight: 150
-    # 主页快捷菜单
-    buttons:
-      - name: 👨🏻‍💻写作
-        url: posts/writing
-      - name: 📕阅读
-        url: posts/read
-      - name: 🌐科技
-        url: posts/tech
-
- # 首页的文章上方的一些信息
-  homeInfoParams:
-  # 首页的 profile 内容
-    Title: "Boz's Blog"
-    # 首页的 profile 内容
-    Content: >
-      👋 Welcome to My Blog!
-# 社交帐号的按钮
-  socialIcons:
-    - name: github
-      title: View Source on Github
-      url: "https://github.com/adityatelange/hugo-PaperMod"
-    - name: X
-      title: Share PaperMod on X/Twitter
-      url: "https://x.com/intent/tweet/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=https://github.com/adityatelange/hugo-PaperMod&hashtags=Hugo,PaperMod"
 
   editPost:
     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"

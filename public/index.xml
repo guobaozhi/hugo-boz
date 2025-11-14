@@ -19,9 +19,9 @@
     </item>
     <item>
       <title>关于</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://localhost:1313/zh/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://localhost:1313/zh/about/</guid>
       <description>about</description>
     </item>
   </channel>
